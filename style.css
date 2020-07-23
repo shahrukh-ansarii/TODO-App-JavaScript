@@ -1,0 +1,40 @@
+body{ 
+    font: 14px sans-serif;
+    background-image: url('https://i.ytimg.com/vi/kKzU9vprMjI/maxresdefault.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+     }
+
+#box{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    width: 500px;
+    height: 600px;
+    background-color:black ;
+    opacity: 88%;
+    padding: 15px;  
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 66px;
+}
+#h1lite{
+    color: red;
+}
+#h1bite{
+    color: rgb(60, 250, 2);
+}
+.editBtnStyle , .dltBtnStyle{
+    padding: 5px;
+    margin: 5px;
+    border: 2px groove greenyellow;
+    background-color: darkgreen;
+    border-radius: 6px;
+}
+.todoItemStyle{
+    border-bottom: 2px groove white;
+    
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Todo </title>
+    
+</head>
+<body>
+    
+
+    <div id="box">
+        <h1><u id="h1lite"> TODO</u> <u id="h1bite"> APP </u></h1>
+
+        <div style="display: inline;" id="div1" class="div1"><br>
+            <input  class="form-control" style="width: 50%; display: inline;" placeholder="What Do You Want to Do ...." type="text" id="todo-item">
+            <button class="btn btn-primary" style="width: 24%;" onclick="addTodo()">ADD ITEMS</button>
+            <button class="btn btn-danger" style="width: 24%;" onclick="delTodo()">DELETE ALL</button>
+            
+            <div id="kar">
+                <ol id="list">
+        
+                </ol>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+
+
+</body>
+<script src="app.js"></script>
+</html>
